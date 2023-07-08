@@ -1,0 +1,195 @@
+body{
+    background-color: #1e1e1e;
+}
+/* ESTILOS DE NAVBAR BARRA DE NAVEGACION*/
+.nav-item{
+    font-size:larger;
+}
+.nav-link{
+    color: #ffffff;
+    font-size:19px;
+    margin-left: 10px;
+    text-align: center;
+}
+.nav-link:hover{
+    background-color: #ff8e53;
+    color: white;
+    font-size: 24px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.473);
+}
+#cabezanavbar{
+    background-color: #000000;
+    color: azure;
+}
+
+.navbar-brand{
+    color: black;
+    margin-left: 10px;
+}
+
+.navbar-toggler-icon {
+    background-color: #ff8e53;
+    border-radius: 2px;
+  }
+
+/* ESTILOS DE JUMBOTRON*/
+
+.jumbotron{
+    color: black;
+    margin-top: 55px;
+}
+
+#tituloJumbo{
+    color: #fcd757;
+    font-family: "copperplate",fantasy;
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+.lead{
+    color: white;
+    font-size:larger;
+    background-color: #00000075;
+}
+
+.breadcrumb{
+    background-color: rgba(0, 0, 0, 0.301);
+}
+.breadcrumb-item{
+    cursor: pointer;
+    color: #0eccfc;
+    margin-left: 10px;
+}
+/* ESTILOS DE DESCRIPCION PERSONAL*/
+.contenedor_carta{
+    height: 500px;
+	margin: auto;
+	width: 500px;
+	-webkit-perspective: 700;
+}
+
+.carta{
+	height: 100%;
+	width: 100%;
+	transition: all 1s;
+	transform-style: preserve-3d;
+	box-shadow: 0px 0px 20px black;
+	position: absolute;
+    border-radius: 35px;
+}
+
+.carta:hover{
+    transform: rotateY(180deg);
+  }
+
+#imgPresentacion{
+    height: 100%; width: 100%; 
+    border-radius: 30px;
+}
+
+.lado{
+    position: absolute;
+	height: 100%;
+	width: 100%;
+    background: #F0F0F0;
+    backface-visibility: hidden;
+    border-radius: 35px;
+}
+
+.atras{
+    height: 100%;
+	width: 100%;
+  transform: rotateY(180deg);
+    
+}
+
+.atras h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#contenidoDescripcionPersonal{
+    text-align: left;
+    color: white;
+    margin-top: 1% ;
+}
+/* ESTILOS DE CARRUSEL*/
+
+#imgslider{
+    max-width:70%
+}
+.d-block{
+    margin-left: auto;
+    margin-right: auto
+  }
+/* ESTILOS DE FOOTER*/
+footer{
+    padding: 10px 10px 0 10px;
+    background-color: rgb(12, 12, 12);
+    color: #72edf2;
+    margin-bottom: 0px;
+    margin-top: 5%;
+}
+
+.iconos{
+padding: 10px 10px 0 10px;
+font-size: larger;
+color: white;
+}
+
+.iconos:hover{
+    color: #098fb1;
+    cursor: pointer;
+}
+
+.footerinfocon{
+    padding: 10px 10px 0 12%;
+    text-align: center;
+}
+
+.ubifooter{
+    padding: 10px 10px 0 0px;
+}
+
+/* ESTILOS DE FORMULARIO PAGINA CONTACTO*/
+
+.div_form{
+    background-color: rgba(0, 0, 0, 0.226);
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.26);
+}
+
+.form-row{
+    margin-left: 10px;
+    color: white;
+    margin-top: 10px;
+    font-family: "Sans-serif",verdana;
+    margin-right: 10px;
+}
+
+.form-group{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    margin-top: 10px;
+    font-family: "Sans-serif",verdana;
+}
+
+.btn-primary{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Sans-serif",verdana;
+}
+
+
+
+#tabla1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+#tabla2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}

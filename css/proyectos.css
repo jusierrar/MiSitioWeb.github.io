@@ -1,0 +1,140 @@
+.container-fluid {
+    width: 100%;
+  }
+  
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Cambia la altura según tus necesidades */
+  }
+  
+  video {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para ajustar la relación de aspecto del video al contenedor */
+  }
+  
+  .navbar-container {
+    position: relative;
+    margin: 0 auto;
+    z-index: 2;
+  }
+
+  .nav-item{
+    font-size:larger;
+}
+.nav-link{
+  color: #000000;
+  font-size: 19px;
+  margin-left: 10px;
+  text-align: center;
+  border: 3px solid white;
+  padding: 5px 10px;
+}
+.nav-link:hover{
+    background-color: #ff8e53;
+    color: white;
+    font-size: 25px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.473);
+}
+#cabezanavbar{
+    background-color: rgb(255, 255, 255);
+    color: azure;
+}
+
+.navbar-brand{
+    color: black;
+    margin-left: 10px;
+}
+
+.container{
+    margin-top: 2vh
+}
+/* Ajustes de fuente y márgenes para el título principal */
+h2 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Ajustes de fuente y márgenes para los títulos de los proyectos */
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Ajustes de fuente y márgenes para los textos de los proyectos */
+  .card-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Ajustes de altura para que todas las tarjetas tengan la misma altura */
+  .card {
+    height: 100%;
+  }
+  
+  /* Ajustes de borde y sombra para las tarjetas */
+  .card-img-top {
+    border-radius: 0.25rem 0.25rem 0 0;
+  }
+  
+  .card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+  }
+  
+  /* Ajustes de altura para que todas las tarjetas tengan la misma altura */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-4 {
+    flex: 1;
+  }
+  
+  /* Ajustes de margen para la fila de tarjetas */
+  .row {
+    margin-bottom: 2rem;
+  }
+  
+
+/* ESTILOS DE FOOTER*/
+footer{
+    padding: 10px 10px 0 10px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 5%;
+}
+
+.iconos{
+padding: 10px 10px 0 10px;
+font-size: larger;
+color: white;
+}
+
+.iconos:hover{
+    color: #098fb1;
+    cursor: pointer;
+}
+
+.footerinfocon{
+    padding: 10px 10px 0 12%;
+    text-align: center;
+}
+
+.ubifooter{
+    padding: 10px 10px 0 0px;
+}
