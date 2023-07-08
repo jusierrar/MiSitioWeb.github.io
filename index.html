@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi sitio web</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="css/main.css" rel="stylesheet" >
+    <link href="node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" >
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md  fixed-top" id="cabezanavbar">
+      <a class="navbar-brand" href="#">JDSR</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPrincipal" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarPrincipal" >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link" href="#">Inicio</a></li>
+          <li class="nav-item "><a class="nav-link" href="./proyectos.html">Proyectos</a></li>
+          <li class="nav-item "><a class="nav-link" href="./estudios.html">Estudios</a></li>
+          <li class="nav-item "><a class="nav-link" href="./contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
+    style="background-image: url(img/escritorio.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;"
+    >
+      <h1 class="display-4" id="tituloJumbo">" HOLA MUNDO "</h1>
+      <p class="lead">Soy Juan David Sierra, estudiante de Administración de Sistemas Informáticos en la Universidad Nacional De Colombia y en estos momentos realizando intercambio academico en la Universidad De Malaga España. Con habilidades en programación y análisis de datos, desarrollo sistemas y aplicaciones web eficientes. Soy orientado a resultados y un buen comunicador.</p>
+      <hr class="my-4 text-dark">
+    </div>
+
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Inicio</li>
+        </ol>
+      </nav>
+
+      <div class="d-flex flex-wrap">
+          <div class="contenedor_carta"> 
+            <div class="carta ">
+              <div class="lado frente">
+                <img src="img/Yo.jpg" alt="" id="imgPresentacion">
+              </div>
+              <div class="lado atras">
+                <h3>DATOS</h3>
+                  <ul>
+                    <li>Edad: 23 Años</li>
+                    <li>Fecha De Nacimiento: 9 Julio De 1999</li>
+                    <li>Nacionalidad: Colombiana</li>
+                  </ul>
+            </div>	
+          </div>
+        </div>
+        <div class="col-sm-6" id="contenidoDescripcionPersonal">
+          <h1>Juan David Sierra Rincon</h1>
+          <p>¡Hola! Mi nombre es Juan David Sierra, soy originario de Manizales, Colombia y estudiante de Administración de Sistemas Informáticos en la Universidad Nacional. Me apasiona la tecnología y soy tecnico en programación de software, he tomado varios cursos de programación web, bases de datos y análisis de datos para mejorar mis habilidades.
+          </p>
+          <p>Mi formación me ha permitido desarrollar sistemas informáticos complejos y eficientes, así como aplicaciones web y móviles que resuelven problemas y necesidades específicas de los usuarios. Soy una persona orientada a resultados y me esfuerzo por alcanzar objetivos claros en cada proyecto en el que trabajo.
+          </p>
+          <p>soy un buen comunicador y puedo explicar conceptos técnicos de manera clara y concisa, lo que me permite trabajar con personas no técnicas y ayudarles a comprender el funcionamiento de los sistemas y aplicaciones que desarrollo.
+          </p> 
+          <p>Estoy emocionado de seguir creciendo en el mundo de la tecnología y poner mis habilidades al servicio de empresas y organizaciones que buscan mejorar sus procesos y ofrecer mejores soluciones a sus clientes. ¡Gracias por visitar mi sitio web!
+          </p>
+        </div>
+      </div>
+
+      <div class="col-sm-15" style="text-align: center; color: white; background-color: rgba(0, 0, 0, 0.329) ; height: 40px;">
+        <h2>Mis Herramientas De Desarrollo</h2>
+      </div>
+
+      <div id="carouselExampleControls" class="carousel slide col-sm-15" data-ride="carousel" style="height: 200px;">
+        <div class="carousel-inner ">
+          <div class="carousel-item active ">
+            <img class="d-block w-100" src="img/logos1.png" alt="First slide" id="imgslider">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/logos2.png" alt="Second slide" id="imgslider">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/logos3.png" alt="Third slide" id="imgslider">
+          </div>
+        </div>
+        <a class="carousel-control-prev " href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previo</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+    </div>
+
+      <footer>
+        <div class="d-flex flex-wrap">
+          <div class="col-sm-4 d-flex flex-column">
+            <hr class="my-4 text-white">
+          </div>
+          <div class="col-sm-4 d-flex flex-column align-items-center">
+            <div class="d-flex flex-wrap">
+              <a class="iconos"href="https://es-la.facebook.com/"><i class="bi bi-facebook"></i></a>
+              <a class="iconos"href="https://es-la.facebook.com/"><i class="bi bi-instagram"></i></a>
+              <a class="iconos"href="https://es-la.facebook.com/"><i class="bi bi-envelope-at"></i></a>
+              <a class="iconos"href="https://es-la.facebook.com/"><i class="bi bi-linkedin"></i></a>
+              <a class="iconos"href="https://es-la.facebook.com/"><i class="bi bi-whatsapp"></i></a>
+            </div>
+            <div class="d-flex flex-wrap footerinfocon align-items-center">
+              <h3>Desarrollador De Software</h3>
+              <p class="ubifooter"><i class="bi bi-geo-alt-fill"></i>  Marbella, Malaga, España</p>
+              <p class="ubifooter"><i class="bi bi-telephone-fill"></i></i>  +34 697942121</p>
+            </div>
+          </div>
+          <div class="col-sm-4 d-flex flex-column">
+            <hr class="my-4 text-white">
+          </div>
+        </div>
+      </footer>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi sitio web</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="css/proyectos.css" rel="stylesheet" >
+    <link href="node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" >
+  </head>
+  <body>
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 video-container">
+          <div class="navbar-container">
+            <nav class="navbar navbar-expand-md" id="cabezanavbarpro">
+              <a class="navbar-brand" href="#">JDSR</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPrincipal" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarPrincipal">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item navitempro active"><a class="nav-link" id="navlinkpro" href="./index.html">Inicio</a></li>
+                  <li class="nav-item navitempro"><a class="nav-link " id="navlinkpro" href="./proyectos.html">Proyectos</a></li>
+                  <li class="nav-item navitempro"><a class="nav-link" id="navlinkpro" href="./estudios.html">Estudios</a></li>
+                  <li class="nav-item navitempro"><a class="nav-link" id="navlinkpro" href="./contacto.html">Contacto</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <video autoplay loop class="fillWidth visible-lg">
+            <source src="video/VideoProgrmando.mp4" type="video/mp4; " />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="text-center mb-4">Proyectos Destacados</h2>
+      <div class="row">
+        <div class="col-sm ">
+          <div class="card mb-4">
+            <img class="card-img-top" src="img/Crud.jpg" alt="Proyecto 1">
+            <div class="card-body">
+              <h3 class="card-title">Sistema de Gestión de Cajas de Almacén</h3>
+              <p class="card-text">El Sistema de Gestión de Cajas de Almacén es una aplicación desarrollada en Python utilizando Tkinter, que permite a los usuarios administrar y controlar las cajas almacenadas en un almacén. Esta aplicación está diseñada para brindar una interfaz intuitiva y amigable, y se ha implementado con dos roles de usuario: administrador y colaborador.</p>
+              <a href="#" class="btn btn-primary" onclick="openPopup2()">Ver más</a>
+
+                  <script>
+                  function openPopup2() {
+                    var width = 600;
+                    var height = 500;
+                    var left = (window.innerWidth - width) / 2;
+                    var top = (window.innerHeight - height) / 2;
+
+                    var popupWindow = window.open("", "_blank", "width=" + width + ", height=" + height + ", left=" + left + ", top=" + top + ", scrollbars=yes");
+                   
+                    popupWindow.document.write("<style>");
+                    popupWindow.document.write("body {font-family: \"Sans-serif\", verdana}");
+                    popupWindow.document.write("h1 { color: #ff8e53; }");
+                    popupWindow.document.write("</style>");
+
+                    popupWindow.document.write("<h1>Sistema de Gestión de Cajas</h1>");
+                    popupWindow.document.write("<p>Introducción:</p>");
+                    popupWindow.document.write("<p>El Sistema de Gestión de Cajas es una solución diseñada para controlar eficientemente las cajas en un almacén. Con este sistema, podrás realizar diferentes operaciones, como buscar cajas por su código, consultar su ubicación, agregar nuevas cajas, eliminarlas (si tienes privilegios de administrador) y modificar su información.</p>");
+                    popupWindow.document.write("<p>Características principales:</p>");
+                    popupWindow.document.write("<ol>");
+                    popupWindow.document.write("<li>Búsqueda por código de caja: El sistema te permite buscar fácilmente las cajas en el almacén utilizando su código único, lo que agiliza el proceso de localización.</li>");
+                    popupWindow.document.write("<li>Consulta de ubicación: Podrás verificar la ubicación de cada caja dentro del almacén, lo que facilita la gestión y organización de los productos almacenados.</li>");
+                    popupWindow.document.write("<li>Agregar nuevas cajas: Con el sistema, podrás agregar nuevas cajas al inventario, proporcionando la información necesaria, como el código y la ubicación.</li>");
+                    popupWindow.document.write("<li>Eliminación de cajas: Si tienes el rol de administrador, podrás eliminar cajas del inventario en caso de ser necesario.</li>");
+                    popupWindow.document.write("<li>Modificación de cajas: También como administrador, tendrás la capacidad de modificar la información de las cajas existentes, como su ubicación o cualquier otro atributo relevante.</li>");
+                    popupWindow.document.write("</ol>");
+                    popupWindow.document.write("<p>Conclusión:</p>");
+                    popupWindow.document.write("<p>El Sistema de Gestión de Cajas ofrece una solución eficiente y práctica para controlar las cajas en un almacén. Con sus características clave, podrás realizar operaciones de búsqueda, consulta, adición, eliminación y modificación de cajas de manera efectiva. Esto te permitirá tener un mejor control sobre el inventario y optimizar la gestión de las cajas en tu almacén.</p>");
+
+                    popupWindow.document.close();
+                  }
+                  </script>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card mb-4">
+            <img class="card-img-top" src="img/Excel.jpg" alt="Proyecto 2">
+            <div class="card-body">
+              <h3 class="card-title">Sistema de Gestión de Mesas e Inventario para Comercio</h3>
+              <p class="card-text">El Sistema de Gestión de Mesas e Inventario es una aplicación desarrollada en Excel con Visual Basic, diseñada para facilitar la gestión de un comercio. Este sistema permite llevar un control exhaustivo del inventario de productos, asignarlos a las mesas correspondientes y generar informes de ventas diarias. Además, ofrece la funcionalidad de agregar nuevos productos a medida que llegan o se introducen al comercio..</p>
+              <a href="#" class="btn btn-primary" onclick="openPopup1()">Ver más</a>
+
+                  <script>
+                  function openPopup1() {
+                    var width = 600;
+                    var height = 500;
+                    var left = (window.innerWidth - width) / 2;
+                    var top = (window.innerHeight - height) / 2;
+
+                    var popupWindow = window.open("", "_blank", "width=" + width + ", height=" + height + ", left=" + left + ", top=" + top + ", scrollbars=yes");
+                   
+                    popupWindow.document.write("<style>");
+                    popupWindow.document.write("body {font-family: \"Sans-serif\", verdana}");
+                    popupWindow.document.write("h1 { color: #ff8e53; }");
+                    popupWindow.document.write("</style>");
+
+                    popupWindow.document.write("<h1>Sistema de Gestión de Mesas e Inventario para Comercio</h1>");
+                    popupWindow.document.write("<p>Introducción:</p>");
+                    popupWindow.document.write("<p>El Sistema de Gestión de Mesas e Inventario es una aplicación diseñada para ayudar a los comercios a controlar eficientemente sus mesas y el inventario de productos. Este sistema ofrece una solución integral que facilita la asignación de productos a las mesas, el cálculo de cuentas y el seguimiento del inventario en tiempo real.</p>");
+                    popupWindow.document.write("<p>Características principales:</p>");
+                    popupWindow.document.write("<ol>");
+                    popupWindow.document.write("<li>Gestión de mesas: El sistema permite asignar productos a mesas específicas, lo que agiliza el proceso de toma de pedidos y facilita el seguimiento de las ventas.</li>");
+                    popupWindow.document.write("<li>Cálculo automático de cuentas: Con cada producto asignado a una mesa, el sistema realiza automáticamente el cálculo de la cuenta total, incluyendo impuestos y descuentos si corresponde.</li>");
+                    popupWindow.document.write("<li>Control de inventario: El sistema actualiza en tiempo real la cantidad de productos disponibles en el inventario a medida que se realizan ventas, evitando así la venta de productos agotados.</li>");
+                    popupWindow.document.write("<li>Generación de informes: Al final del día, el sistema genera informes detallados que muestran las ventas realizadas en cada mesa, el total de ingresos y el estado del inventario.</li>");
+                    popupWindow.document.write("</ol>");
+                    popupWindow.document.write("<p>Conclusión:</p>");
+                    popupWindow.document.write("<p>El Sistema de Gestión de Mesas e Inventario es una herramienta valiosa para los comercios que desean mejorar la eficiencia en la gestión de sus mesas y controlar el inventario de productos de manera efectiva. Con sus características clave, este sistema simplifica el proceso de toma de pedidos, cálculo de cuentas y seguimiento del inventario, lo que se traduce en una mejor experiencia para los clientes y una gestión más eficiente del negocio.</p>");
+
+                    popupWindow.document.close();
+                  }
+                  </script>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card mb-4">
+            <img class="card-img-top" src="img/web.jpg" alt="Proyecto 3">
+            <div class="card-body">
+              <h3 class="card-title">Diseño de Páginas Web a Medida</h3>
+              <p class="card-text">Me especializo en crear blogs personalizados que se adapten a tus necesidades y preferencias. Si estás buscando un blog único y atractivo, ya sea para uso personal, de viajes, de moda o cualquier otro tema, estoy aquí para hacer que tu visión cobre vida en el mundo digital.</p>
+              <a href="#" class="btn btn-primary" onclick="openPopup3()">Ver más</a>
+
+                  <script>
+                  function openPopup3() {
+                    var width = 600;
+                    var height = 500;
+                    var left = (window.innerWidth - width) / 2;
+                    var top = (window.innerHeight - height) / 2;
+
+                    var popupWindow = window.open("", "_blank", "width=" + width + ", height=" + height + ", left=" + left + ", top=" + top + ", scrollbars=yes");
+                   
+                    popupWindow.document.write("<style>");
+                    popupWindow.document.write("body {font-family: \"Sans-serif\", verdana}");
+                    popupWindow.document.write("h1 { color: #ff8e53; }");
+                    popupWindow.document.write("</style>");
+
+                    popupWindow.document.write("<h1>Servicio de Diseño de Páginas Web a Medida</h1>");
+                    popupWindow.document.write("<p>Introducción:</p>");
+                    popupWindow.document.write("<p>Ofrezco un servicio profesional de diseño de páginas web a medida, centrado en crear blogs personalizados que se adapten perfectamente a tus necesidades. Si estás buscando un blog único y atractivo para tu proyecto, ya sea de viajes, moda, estilo de vida u otro tema, estoy aquí para hacer que tu visión cobre vida en el mundo digital.</p>");
+                    popupWindow.document.write("<p>Características principales:</p>");
+                    popupWindow.document.write("<ol>");
+                    popupWindow.document.write("<li>Diseño personalizado: Trabajaré estrechamente contigo para comprender tus requisitos y gustos, asegurándome de que tu blog refleje tu estilo y personalidad de manera auténtica.</li>");
+                    popupWindow.document.write("<li>Funcionalidad específica del blog: Podrás elegir las funciones específicas que deseas para tu blog, como comentarios de lectores, suscripción por correo electrónico, integración con redes sociales y más.</li>");
+                    popupWindow.document.write("<li>Experiencia de usuario optimizada: Diseñaré tu blog para que ofrezca una experiencia de usuario fluida y agradable, con una navegación intuitiva y un diseño responsive que se adapte a diferentes dispositivos.</li>");
+                    popupWindow.document.write("<li>Gestión de contenido sencilla: Utilizaré un sistema de gestión de contenido (CMS) fácil de usar, como WordPress, para que puedas administrar y actualizar tu blog sin complicaciones técnicas.</li>");
+                    popupWindow.document.write("<li>Optimización para motores de búsqueda (SEO): Implementaré estrategias de optimización para mejorar el ranking de tu blog en los motores de búsqueda, atrayendo más tráfico orgánico y relevante.</li>");
+                    popupWindow.document.write("<li>Soporte y mantenimiento continuo: Estaré disponible para brindarte soporte técnico y servicios de mantenimiento a largo plazo, asegurando que tu blog esté siempre funcionando de manera óptima.</li>");
+                    popupWindow.document.write("</ol>");
+                    popupWindow.document.write("<p>Conclusión:</p>");
+                    popupWindow.document.write("<p>Si estás buscando un blog personalizado y profesional, mi servicio de Diseño de Páginas Web a Medida es perfecto para ti. Trabajaré de cerca contigo para crear un blog que refleje tu identidad y te ayude a alcanzar tus objetivos en línea. ¡Vamos a construir juntos un blog único y exitoso!</p>");
+
+                    popupWindow.document.close();
+                  }
+                  </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <footer>
+        <div class="d-flex flex-wrap">
+          <div class="col-sm-4 d-flex flex-column">
+            <hr class="my-4 text-white">
+          </div>
+          <div class="col-sm-4 d-flex flex-column align-items-center">
+            <div class="d-flex flex-wrap">
+              <a class="iconos"href="https://es-la.facebook.com/"><i class="bi bi-facebook"></i></a>
+              <a class="iconos"href="https://es-la.facebook.com/"><i class="bi bi-instagram"></i></a>
+              <a class="iconos"href="https://es-la.facebook.com/"><i class="bi bi-envelope-at"></i></a>
+              <a class="iconos"href="https://es-la.facebook.com/"><i class="bi bi-linkedin"></i></a>
+              <a class="iconos"href="https://es-la.facebook.com/"><i class="bi bi-whatsapp"></i></a>
+            </div>
+            <div class="d-flex flex-wrap footerinfocon align-items-center">
+              <h3>Desarrollador De Software</h3>
+              <p class="ubifooter"><i class="bi bi-geo-alt-fill"></i>  Marbella, Malaga, España</p>
+              <p class="ubifooter"><i class="bi bi-telephone-fill"></i></i>  +34 697942121</p>
+            </div>
+          </div>
+          <div class="col-sm-4 d-flex flex-column">
+            <hr class="my-4 text-white">
+          </div>
+        </div>
+      </footer>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
